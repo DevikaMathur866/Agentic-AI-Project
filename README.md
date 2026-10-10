@@ -22,22 +22,22 @@ Paired with a modern React frontend featuring animated carousels, destination pr
 
 ##  Key Features
 
-- ** Multi-Agent Orchestration (LangGraph)**  
+- **Multi-Agent Orchestration (LangGraph)**  
   Stateful generation pipeline combining intent classification, landmark synthesis, live hotel search, multi-modal transport routing, and budget validation.
 
-- ** Grounded Landmark Discovery**  
+- **Grounded Landmark Discovery**  
   Uses Google Places API (New) combined with rich Indian tourism datasets to pull verified places, visitor timings, and authentic descriptions tailored to the traveler's pace.
 
-- ** Real-Time Accommodation & Reranking**  
+- **Real-Time Accommodation & Reranking**  
   Direct SerpApi integration with Google Hotels and vacation rentals. Candidates are reranked against traveler mood and preferences using TF-IDF cosine similarity.
 
-- ** Multi-Modal Transit Intelligence**  
+- **Multi-Modal Transit Intelligence**  
   Resolves airport IATA codes and railway station codes to fetch realistic flight fares (Google Flights) and train schedules (IRCTC) alongside road transit options.
 
-- ** Autonomous Budget Feasibility Agent**  
+- **Autonomous Budget Feasibility Agent**  
   Eliminates arbitrary percentage floors. Mathematically validates expenses against live market rates, identifies shortfalls, and recommends realistic cost-saving trade-offs.
 
-- ** Conversational Human-in-the-Loop Refinement**  
+- **Conversational Human-in-the-Loop Refinement**  
   Travelers can swap specific activities, adjust hotel tiers, or replan budget splits directly through an integrated natural language chatbox.
 
 ---
