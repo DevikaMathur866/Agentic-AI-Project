@@ -1,4 +1,4 @@
-# Beyond Schema
+# Schema
 > **Autonomous Agentic AI Travel Planner for Dynamic, End-to-End Itinerary Generation**
 
 [![React](https://img.shields.io/badge/React-18.3-61dafb?style=flat-square&logo=react)](https://react.dev/)
