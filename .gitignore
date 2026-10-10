@@ -1,0 +1,29 @@
+# Environment & Secrets
+.env
+Backend/.env
+Frontend/.env
+Frontend/.env.local
+
+# Frontend (Node, Vite build & TypeScript cache)
+node_modules/
+Frontend/node_modules/
+dist/
+Frontend/dist/
+*.tsbuildinfo
+Frontend/*.tsbuildinfo
+
+# Backend (Python virtual env, caches & generated output)
+.venv/
+venv/
+__pycache__/
+Backend/__pycache__/
+Backend/Tools/__pycache__/
+Backend/agents/__pycache__/
+*.py[cod]
+Backend/itinerary_output.json
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
